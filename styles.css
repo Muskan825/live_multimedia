@@ -1,0 +1,40 @@
+*{
+    background-image:linear-gradient(to left,rgba(22, 123, 174, 0.723),rgba(227, 205, 225, 0.784));
+}
+.box{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+img{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding-left: 40%;
+  width: 320px;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.645);
+}
+audio{
+    background: none;
+    padding: 20px;
+    height: 50px;
+    width: 300px;
+    padding-left: 40%;
+}
+audio:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 3px 3px #333);
+}
+video{
+    padding: 5px;
+    height: 400px;
+    width: 400px;
+    padding-left: 40%;
+}
+iframe{
+    height: 400px;
+    width: 500px;
+    border: 3px double white;
+    padding-left: 40%;
+}
